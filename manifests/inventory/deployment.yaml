@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: part-inventory-service
-  namespace: dev
+#  namespace: dev
   labels:
     app: part-inventory-service
 spec:
