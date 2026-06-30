@@ -5,7 +5,8 @@ fullnameOverride: ""
 
 commonLabels: { }
 
-imagePullSecrets: [ ]
+imagePullSecrets:
+  - name: acr-secret
 
 
 partInventory:
